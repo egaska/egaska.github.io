@@ -1,0 +1,20 @@
+body{
+    margin-top: 1%;
+    margin-left: 10%;
+}
+
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: palevioletred
+}
+
+ul, p{
+    color: plum
+}
+
+img{
+
+    float: right;
+    border: plum;
+    border-width: 10px;
+}
