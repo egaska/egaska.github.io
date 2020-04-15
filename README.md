@@ -1,1 +1,0 @@
-# egaska.github.io
