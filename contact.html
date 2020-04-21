@@ -7,26 +7,26 @@
     <title>Contact</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 
 <body>
-    <!-- Navigation -->
-
-    <nav class="navbar navbar-expand-lg fixed-topjustify-content-around border" style="background-color: white;">
+ 
+    <nav class="navbar navbar-expand-lg fixed-top justify-content-around border" style="background-color: white;">
         <div class="container">
             <!-- Nav Name Logo -->
-            <div class="row col-lg-3 col-m-2 col-sm-12 navbar navbar-dark justify-content-center"
+            <nav class="row col-lg-4 col-md-5 col-sm-12 navbar navbar-dark justify-content-center h1"
                 style="background-color: #59AAA5;">
-                <span class="navbar-brand " style="font-family:Georgia, 'Times New Roman', Times, serif; font-weight: bold; ">
-                        <h3> Emily Gaska</h3>
-                    
+                <span class="navbar-brand "
+                    style="font-family:Georgia, 'Times New Roman', Times, serif; font-weight: bold; ">
+                    Emily Gaska
+
                 </span>
-            </div>
+            </nav>
 
             <!-- Nav Links -->
-            <div class="col-lg-4 col-m-3 col-sm-12 navbar-light">
+            <nav class="col-lg-4 col-md-4 col-sm-12 navbar-light">
                 <ul class="nav justify-content-center">
                     <li class="nav-item">
                         <a class="nav-link active" href="index.html" style="color: grey;">About</a>
@@ -40,15 +40,16 @@
                         <a class="nav-link" href="contact.html" style="color: grey;">Contact</a>
                     </li>
                 </ul>
-            </div>
+            </nav>
         </div>
     </nav>
+
 
     <!-- Main Body -->
     <main class="container">
 
-        <div class="row">
-            <div class="col-lg-7 col-md-11 col-sm-12 border" style="background-color: white; margin: 50px 0px ;">
+        <section class="row">
+            <div class="col-lg-7 col-md-11 col-sm-12 border" style="background-color: white; margin: 100px 0px ;">
                 <div class="page-header"
                     style="font-family:Georgia, 'Times New Roman', Times, serif ; color: #59AAA5; margin-top: 30px; margin-left: 20px; ">
                     <h3><b>Contact</b></h3>
@@ -56,28 +57,33 @@
                 <hr class="my-3">
                 <div class="row">
                     <div style="margin-left: 20px; margin-bottom: 30px; margin-right: 20px;"></div>
-                        <form>
-                            <!-- Name Entry -->
-                            <div class="form-group">
-                              <label for="exampleFormControlInput1">Name</label>
-                              <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="John Smith">
-                            </div>
+                    <form class="col-sm-12">
+                        <!-- Name Entry -->
+                        <div class="form-group">
+                            <label for="exampleFormControlInput1">Name</label>
+                            <input type="name" class="form-control" id="exampleFormControlInput1"
+                                placeholder="John Smith">
+                        </div>
 
-                            <!-- Email Entry -->
-                            <div class="form-group">
-                                <label for="exampleFormControlInput2">Email</label>
-                                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@email.com">
-                            </div>
-            
-                            <div class="form-group">
-                              <label for="exampleFormControlTextarea1">Message</label>
-                              <textarea class="form-control" id="exampleFormControlTextarea1" rows="6"></textarea>
-                            </div>
-                          </form>
-                    </div>
+                        <!-- Email Entry -->
+                        <div class="form-group">
+                            <label for="exampleFormControlInput2">Email</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput1"
+                                placeholder="name@email.com">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="exampleFormControlTextarea1">Message</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="6"></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary" style="background-color: #59AAA5;">Submit</button>
+
+                    </form>
                 </div>
             </div>
-        </div>
+            </div>
+        </section>
     </main>
 
     <!-- Footer -->
@@ -93,15 +99,3 @@
 
     </nav>
 </body>
-
-
-
-
-<!-- Inserting the background image -->
-<style>
-    body {
-        background-image: url('background.jpg');
-    }
-</style>
-
-</html>

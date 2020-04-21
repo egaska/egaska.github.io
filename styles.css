@@ -2,3 +2,12 @@
     body {
         background-image: url('assets/background.jpg');
     }
+
+/*About Page Image Formatting*/
+    .picture img {
+        background: #fff;
+        border: 1px #ddd solid;
+        padding: 1px;
+        float: left;
+        margin: 1rem;
+}

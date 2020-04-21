@@ -7,26 +7,27 @@
     <title>Portfolio</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 
 <body>
     <!-- Navigation -->
-    
+
     <nav class="navbar navbar-expand-lg fixed-topjustify-content-around border" style="background-color: white;">
         <div class="container">
             <!-- Nav Name Logo -->
-            <div class="row col-lg-3 col-m-2 col-sm-12 navbar navbar-dark justify-content-center"
+            <nav class="row col-lg-4 col-md-4 col-sm-12 navbar navbar-dark justify-content-center h1"
                 style="background-color: #59AAA5;">
-                <span class="navbar-brand " style="font-family:Georgia, 'Times New Roman', Times, serif; font-weight: bold; ">
-                        <h3> Emily Gaska</h3>
-                    
+                <span class="navbar-brand "
+                    style="font-family:Georgia, 'Times New Roman', Times, serif; font-weight: bold; ">
+                    Emily Gaska
+
                 </span>
-            </div>
+            </nav>
 
             <!-- Nav Links -->
-            <div class="col-lg-4 col-m-3 col-sm-12 navbar-light">
+            <nav class="col-lg-4 col-md-5 col-sm-12 navbar-light">
                 <ul class="nav justify-content-center">
                     <li class="nav-item">
                         <a class="nav-link active" href="index.html" style="color: grey;">About</a>
@@ -40,63 +41,161 @@
                         <a class="nav-link" href="contact.html" style="color: grey;">Contact</a>
                     </li>
                 </ul>
-            </div>
+            </nav>
         </div>
     </nav>
 
     <!-- Main Body -->
     <main class="container">
-<div class="row">
-            <div class="col-lg-7 col-md-11 col-sm-12 border" style="background-color: white; margin: 50px 0px ;">
+        <div class="row">
+            <div class="col-lg-7 col-md-11 col-sm-12 p-3 border" style="background-color: white; margin: 30px 0px ;">
                 <div class="page-header"
-                    style="font-family:Georgia, 'Times New Roman', Times, serif ; color: #59AAA5; margin-top: 30px; margin-left: 20px; ">
+                    style="font-family:Georgia, 'Times New Roman', Times, serif ; color: #59AAA5; margin-top: 20px; margin-left: 20px; ">
                     <h3><b>Portfolio</b></h3>
                 </div>
                 <hr class="my-3">
-                <div class="row">
-                    <div  style="margin-left: 20px; margin-bottom: 30px; margin-right: 20px;">
-                        <img src="http://placehold.it/200x150" alt="Placeholder" class="img-thumbnail" align="left"
-                            style="margin-right:15px;">
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque dignissim, felis ut
-                            dictum tristique,
-                            nibh erat feugiat libero, sit amet fringilla mauris velit in mi. Duis tempus felis vitae
-                            felis vulputate pretium. Nullam commodo, est ac auctor ornare, eros nisi fringilla sem,
-                            non pulvinar tortor lorem sit amet sem. Aenean quis erat facilisis, porttitor ex cursus,
-                            luctus enim. Curabitur et metus in lacus tristique sagittis et in lorem. Nunc id nisi et
-                            neque fringilla ultricies. Aenean at feugiat elit, a posuere justo. Pellentesque egestas
-                            dolor et nisi venenatis, nec fermentum urna fringilla. Etiam efficitur porta purus, id
-                            posuere sem congue a.
 
-                        </p>
+                <div class="container-fluid">
+                    <!-- First row of pictures -->
+                    <div class="row justify-content-lg-absolute justify-content-md-absolute mt-2 mb-2 ml-2 mr-2">
+                        <div class="col-12 col-lg-6 col-md-6 col-sm-12">
+
+                            <!-- Adding the relative postion style to line the text up with the image -->
+                            <div style="position: relative;">
+                                <!-- Image Information -->
+                                <img src="http://placehold.it/200x150" alt="test" class="img-fluid">
+
+                                <!-- row and col text -->
+                                <div class="row ml-0 mr-0 ml-0"
+                                    style="height: 30px; background-color:#59AAA5; position:absolute; bottom: 15px; ">
+                                    <div class="col-12"
+                                        style="color: white; font-family: Georgia, 'Times New Roman', Times, serif;">
+                                        <p style="color: white">Coming Soon</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class= "col-lg-6 col-md-6 col-sm-12 mt-4 mt-lg-0 mt-md-0 mt-sm-4">
+
+                              <!-- Adding the relative postion style to line the text up with the image -->
+                              <div style="position: relative;">
+                                <!-- Image Information -->
+                                <img src="http://placehold.it/200x150" alt="test" class="img-fluid">
+
+                                <!-- row and col text -->
+                                <div class="row ml-0 mr-0 ml-0"
+                                    style="height: 30px; background-color:#59AAA5; position:absolute; bottom: 15px; ">
+                                    <div class="col-12"
+                                        style="color: white; font-family: Georgia, 'Times New Roman', Times, serif;">
+                                        <p style="color: white">Coming Soon</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        
+                    </div>
+
+                      <!-- Second row of pictures -->
+                      <div class="row justify-content-lg-absolute justify-content-md-absolute mt-2 mb-2 ml-2 mr-2">
+                        <div class="col-12 col-lg-6 col-md-6 col-sm-12">
+
+                            <!-- Adding the relative postion style to line the text up with the image -->
+                            <div style="position: relative;">
+                                <!-- Image Information -->
+                                <img src="http://placehold.it/200x150" alt="test" class="img-fluid">
+
+                                <!-- row and col text -->
+                                <div class="row ml-0 mr-0 ml-0"
+                                    style="height: 30px; background-color:#59AAA5; position:absolute; bottom: 15px; ">
+                                    <div class="col-12"
+                                        style="color: white; font-family: Georgia, 'Times New Roman', Times, serif;">
+                                        <p style="color: white">Coming Soon</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class= "col-lg-6 col-md-6 col-sm-12 mt-4 mt-lg-0 mt-md-0 mt-sm-4">
+
+                              <!-- Adding the relative postion style to line the text up with the image -->
+                              <div style="position: relative;">
+                                <!-- Image Information -->
+                                <img src="http://placehold.it/200x150" alt="test" class="img-fluid">
+
+                                <!-- row and col text -->
+                                <div class="row ml-0 mr-0 ml-0"
+                                    style="height: 30px; background-color:#59AAA5; position:absolute; bottom: 15px; ">
+                                    <div class="col-12"
+                                        style="color: white; font-family: Georgia, 'Times New Roman', Times, serif;">
+                                        <p style="color: white">Coming Soon</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        
+                    </div>
+                      <!-- Third row of pictures -->
+                      <div class="row justify-content-lg-absolute justify-content-md-absolute mt-2 mb-2 ml-2 mr-2">
+                        <div class="col-12 col-lg-6 col-md-6 col-sm-12">
+
+                            <!-- Adding the relative postion style to line the text up with the image -->
+                            <div style="position: relative;">
+                                <!-- Image Information -->
+                                <img src="http://placehold.it/200x150" alt="test" class="img-fluid">
+
+                                <!-- row and col text -->
+                                <div class="row ml-0 mr-0 ml-0"
+                                    style="height: 30px; background-color:#59AAA5; position:absolute; bottom: 15px; ">
+                                    <div class="col-12"
+                                        style="color: white; font-family: Georgia, 'Times New Roman', Times, serif;">
+                                        <p style="color: white">Coming Soon</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class= "col-lg-6 col-md-6 col-sm-12 mt-4 mt-lg-0 mt-md-0 mt-sm-4">
+
+                              <!-- Adding the relative postion style to line the text up with the image -->
+                              <div style="position: relative;">
+                                <!-- Image Information -->
+                                <img src="http://placehold.it/200x150" alt="test" class="img-fluid">
+
+                                <!-- row and col text -->
+                                <div class="row ml-0 mr-0 ml-0"
+                                    style="height: 30px; background-color:#59AAA5; position:absolute; bottom: 15px; ">
+                                    <div class="col-12"
+                                        style="color: white; font-family: Georgia, 'Times New Roman', Times, serif;">
+                                        <p style="color: white">Coming Soon</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        
                     </div>
                 </div>
+
             </div>
+        </div>
+        </div>
+        </div>
         </div>
     </main>
 
     <!-- Footer -->
 
-    <div class= "fixed-bottom" style="height: 75px; background-color: #59AAA5;">
-       
-      </div>
+    <div class="fixed-bottom" style="height: 75px; background-color: #59AAA5;">
+
+    </div>
 
     <nav class="navbar fixed-bottom navbar-light bg-lightr justify-content-center" style="background-color: #666666;">
 
-            <span class="navbar-brand mb-4" style="font-size: x-small; color: lightgrey;">© Copyright</span>
-            </span>
+        <span class="navbar-brand mb-4" style="font-size: x-small; color: lightgrey;">© Copyright</span>
+        </span>
 
     </nav>
 </body>
-
-
-
-
-<!-- Inserting the background image -->
-<style>
-    body {
-        background-image: url('background.jpg');
-    }
-</style>
-
-</html>
