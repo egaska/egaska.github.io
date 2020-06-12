@@ -4,202 +4,151 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="/styles.css">
+
+    <title>Emily Gaska | Profile</title>
 </head>
 
-
 <body>
-    <!-- Navigation -->
 
-    <nav class="navbar navbar-expand-lg fixed-topjustify-content-around border" style="background-color: white;">
+    <!-- Jumbotron title display -->
+    <div class="jumbo">
         <div class="container">
-            <!-- Nav Name Logo -->
-            <nav class="row col-lg-4 col-md-4 col-sm-12 navbar navbar-dark justify-content-center h1"
-                style="background-color: #59AAA5;">
-                <span class="navbar-brand "
-                    style="font-family:Georgia, 'Times New Roman', Times, serif; font-weight: bold; ">
-                    Emily Gaska
-
-                </span>
-            </nav>
-
-            <!-- Nav Links -->
-            <nav class="col-lg-4 col-md-5 col-sm-12 navbar-light">
-                <ul class="nav justify-content-center">
-                    <li class="nav-item">
-                        <a class="nav-link active" href="index.html" style="color: grey;">About</a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link" href="portfolio.html" style="color: grey;">Portfolio</a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link" href="contact.html" style="color: grey;">Contact</a>
-                    </li>
-                </ul>
-            </nav>
+            <h1 class="display-3 row float-left col-lg-5 col-md-12 col-sm-12">Emily Gaska</h1>
+            <div class="container float-right col-lg-5 col-md-12 col-sm-12">
+                <button class="button" id="profile" href="index.html">Profile</button>
+                <button class="button" id="portfolio" href="portfolio.html">Portfolio</button>
+                <button class="button" id="contact" href="contact.html">Contact</button>
+            </div>
         </div>
-    </nav>
+    </div>
 
     <!-- Main Body -->
-    <main class="container">
+    <div class="container main">
         <div class="row">
-            <div class="col-lg-7 col-md-11 col-sm-12 p-3 border" style="background-color: white; margin: 30px 0px ;">
-                <div class="page-header"
-                    style="font-family:Georgia, 'Times New Roman', Times, serif ; color: #59AAA5; margin-top: 20px; margin-left: 20px; ">
-                    <h3><b>Portfolio</b></h3>
-                </div>
+            <div class="page-header">
+                <h3><b>Portfolio</b></h3>
                 <hr class="my-3">
+            </div>
+        </div>
 
-                <div class="container-fluid">
-                    <!-- First row of pictures -->
-                    <div class="row justify-content-lg-absolute justify-content-md-absolute mt-2 mb-2 ml-2 mr-2">
-                        <div class="col-12 col-lg-6 col-md-6 col-sm-12">
+        <div class="row">
+            <div class="iconContainer col-lg-4 col-md-6 col-sm-12">
+                <!-- Image Information -->
 
-                            <!-- Adding the relative postion style to line the text up with the image -->
-                            <div style="position: relative;">
-                                <!-- Image Information -->
-                                <a href="https://egaska.github.io/Texas-History-Quiz/">
-                                    <img src="/assets/texasquiz.png" alt="test" class="img-fluid">
-                                </a>
-                                <!-- row and col text -->
-                                <div class="row ml-0 mr-0 ml-0"
-                                    style="height: 30px; background-color:#59AAA5; position:absolute; bottom: 15px; ">
-                                    <div class="col-12"
-                                        style="color: white; font-family: Georgia, 'Times New Roman', Times, serif;">
-                                        <p style="color: white">Texas Quiz</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-6 col-md-6 col-sm-12 mt-4 mt-lg-0 mt-md-0 mt-sm-4">
-
-                            <!-- Adding the relative postion style to line the text up with the image -->
-                            <div style="position: relative;">
-                                <!-- Image Information -->
-                                <a href="https://egaska.github.io/Weather-Display/">
-                                    <img src="/assets/weather.png" alt="test" class="img-fluid">
-                                </a>
-                                <!-- row and col text -->
-                                <div class="row ml-0 mr-0 ml-0"
-                                    style="height: 30px; background-color:#59AAA5; position:absolute; bottom: 15px; ">
-                                    <div class="col-12"
-                                        style="color: white; font-family: Georgia, 'Times New Roman', Times, serif;">
-                                        <p style="color: white">Weather Dashboard</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-
+                <img src="/assets/texasquiz.png" alt="test" class="icon">
+                <a href="https://egaska.github.io/Texas-History-Quiz/">
+                    <div class="overlay">
+                        <p class="label">Texas Quiz</p>
                     </div>
+                </a>
+            </div>
 
-                    <!-- Second row of pictures -->
-                    <div class="row justify-content-lg-absolute justify-content-md-absolute mt-2 mb-2 ml-2 mr-2">
-                        <div class="col-12 col-lg-6 col-md-6 col-sm-12">
-
-                            <!-- Adding the relative postion style to line the text up with the image -->
-                            <div style="position: relative;">
-                                <!-- Image Information -->
-                                <a href="https://egaska.github.io/Work-Day-Schedule/">
-                                <img src="/assets/sched.png" alt="test" class="img-fluid">
-                            </a>
-                                <!-- row and col text -->
-                                <div class="row ml-0 mr-0 ml-0"
-                                    style="height: 30px; background-color:#59AAA5; position:absolute; bottom: 15px; ">
-                                    <div class="col-12"
-                                        style="color: white; font-family: Georgia, 'Times New Roman', Times, serif;">
-                                        <p style="color: white">Work Day Scheduler</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-6 col-md-6 col-sm-12 mt-4 mt-lg-0 mt-md-0 mt-sm-4">
-
-                            <!-- Adding the relative postion style to line the text up with the image -->
-                            <div style="position: relative;">
-                                <!-- Image Information -->
-                                <img src="/assets/cook.png" alt="test" class="img-fluid">
-
-                                <!-- row and col text -->
-                                <div class="row ml-0 mr-0 ml-0"
-                                    style="height: 30px; background-color:#59AAA5; position:absolute; bottom: 15px; ">
-                                    <div class="col-12"
-                                        style="color: white; font-family: Georgia, 'Times New Roman', Times, serif;">
-                                        <p style="color: white">Coming Soon</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-
+            <div class="iconContainer col-lg-4 col-md-6 col-sm-12">
+                <!-- Image Information -->
+                <a href="https://egaska.github.io/Weather-Display/">
+                    <img src="/assets/weather.png" alt="test" class="icon">
+                    <div class="overlay">
+                        <p class="label">Weather Dashboard</p>
                     </div>
-                    <!-- Third row of pictures -->
-                    <div class="row justify-content-lg-absolute justify-content-md-absolute mt-2 mb-2 ml-2 mr-2">
-                        <div class="col-12 col-lg-6 col-md-6 col-sm-12">
+                </a>
+            </div>
 
-                            <!-- Adding the relative postion style to line the text up with the image -->
-                            <div style="position: relative;">
-                                <!-- Image Information -->
-                                <a href="https://egaska.github.io/Random-Password-Generator">
-                                <img src="/assets/lock.png" alt="test" class="img-fluid">
-                                    </a>
-                                <!-- row and col text -->
-                                <div class="row ml-0 mr-0 ml-0"
-                                    style="height: 30px; background-color:#59AAA5; position:absolute; bottom: 15px; ">
-                                    <div class="col-12"
-                                        style="color: white; font-family: Georgia, 'Times New Roman', Times, serif;">
-                                        <p style="color: white">Password Generator</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-6 col-md-6 col-sm-12 mt-4 mt-lg-0 mt-md-0 mt-sm-4">
-
-                            <!-- Adding the relative postion style to line the text up with the image -->
-                            <div style="position: relative;">
-                                <!-- Image Information -->
-                                <img src="http://placehold.it/200x150" alt="test" class="img-fluid">
-
-                                <!-- row and col text -->
-                                <div class="row ml-0 mr-0 ml-0"
-                                    style="height: 30px; background-color:#59AAA5; position:absolute; bottom: 15px; ">
-                                    <div class="col-12"
-                                        style="color: white; font-family: Georgia, 'Times New Roman', Times, serif;">
-                                        <p style="color: white">Coming Soon</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+            <div class="iconContainer col-lg-4 col--6 col-sm-12">
+                <!-- Image Information -->
+                <a href=" https://egaska.github.io/Work-Day-Schedule/ ">
+                    <img src="/assets/sched.png " alt="test " class="icon ">
+                    <div class="overlay ">
+                        <p class="label ">Work Day Scheduler</p>
+                </a>
+                </div>
+            </div>
 
 
-                    </div>
+            <div class="iconContainer col-lg-4 col--6 col-sm-12">
+                <!-- Image Information -->
+                <a href=" https://egaska.github.io/Super-Recipe/ ">
+                    <img src="/assets/cook.png " alt="test " class="icon ">
+                    <div class="overlay ">
+                        <p class="label ">Super Recipe</p>
+                </a>
+                </div>
+            </div>
+
+
+
+
+            <div class="iconContainer col-lg-4 col--6 col-sm-12">
+                <!-- Image Information -->
+                <a href=" https://egaska.github.io/Random-Password-Generator ">
+                    <img src="/assets/lock.png " alt="test " class="img-fluid icon ">
+
+                    <div class="overlay ">
+                        <p class="label ">Password Generator</p>
+                </a>
                 </div>
 
             </div>
-        </div>
-        </div>
-        </div>
-        </div>
-    </main>
 
-    <!-- Footer -->
 
-    <div class="fixed-bottom" style="height: 75px; background-color: #59AAA5;">
+            <div class="iconContainer col-lg-4 col--6 col-sm-12">
+                <a href=" https://github.com/egaska/ReadMe_Generator">
+                    <!-- Image Information -->
+
+                    <img src="/assets/readme.png " alt="test " class="img-fluid icon ">
+
+                    <div class="overlay ">
+                        <p class="label ">ReadMe Generator</p>
+                    </div>
+                </a>
+
+            </div>
+
+            <div class="iconContainer col-lg-4 col--6 col-sm-12">
+                <a href=" https://github.com/egaska/Employee-Tracker ">
+                    <!-- Image Information -->
+                    <img src="/assets/employee.png " alt="test " class="img-fluid icon ">
+
+                    <div class="overlay ">
+                        <p class="label ">Employee Tracker</p>
+                    </div>
+                </a>
+            </div>
+
+            <div class="iconContainer col-lg-4 col--6 col-sm-12 ">
+                <a href="https://tranquil-brushlands-06237.herokuapp.com/ ">
+                    <!-- Image Information -->
+                    <img src="/assets/burger.png " alt="test " class="img-fluid icon ">
+
+                    <div class="overlay ">
+                        <p class="label ">Burger Logger</p>
+                    </div>
+                </a>
+            </div>
+
+
+
+        </div>
+        <div id="credit ">Icons made by <a href="https://www.flaticon.com/authors/freepik " title="Freepik ">Freepik</a> from <a href="https://www.flaticon.com/ " title="Flaticon "> www.flaticon.com</a></div>
 
     </div>
 
-    <nav class="navbar fixed-bottom navbar-light bg-lightr justify-content-center" style="background-color: #666666;">
 
-        <span class="navbar-brand mb-4" style="font-size: x-small; color: lightgrey;">© Copyright</span>
-        </span>
+
+    <!-- Footer -->
+
+    <div class="fixed-bottom ">
+
+    </div>
+
+    <nav class="navbar fixed-bottom navbar-light bg-lightr justify-content-center ">
+
 
     </nav>
 </body>
+
+
+</body>
+
+</html>

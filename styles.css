@@ -1,13 +1,124 @@
-/*Background*/
-    body {
-        background-image: url('assets/background.jpg');
-    }
-
 /*About Page Image Formatting*/
-    .picture img {
-        background: #fff;
-        border: 1px #ddd solid;
-        padding: 1px;
-        float: left;
-        margin: 1rem;
+
+.picture img {
+    background: #fff;
+    border: 1px #ddd solid;
+    padding: 1px;
+    float: left;
+    margin: 1rem;
+}
+
+body {
+    background-color: #f9f9f9;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url("assets/background.jpg");
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly align-items: center;
+}
+
+.jumbo {
+    background-color: #5aa9e6;
+    color: #f9f9f9;
+    height: 10rem;
+    padding: 2rem;
+}
+
+.nav {
+    color: #f9f9f9;
+    background-color: #ff6392;
+}
+
+.navlink {
+    color: #f9f9f9;
+    padding-right: 100px;
+}
+
+.button {
+    height: 100px;
+    width: 100px;
+    border: none;
+    color: #f8f4f4;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 10px 10px;
+    border-radius: 50%;
+    font-weight: 500;
+    justify-content: right;
+}
+
+#profile {
+    background-color: #7fc8f8;
+}
+
+#portfolio {
+    background-color: #4ecd8d;
+}
+
+#contact {
+    background-color: #ff6392;
+}
+
+.page-header {
+    color: #4ecd8d;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.main {
+    background-color: white;
+}
+
+.iconContainer {
+    position: relative;
+    width: 50%;
+}
+
+.icon {
+    display: block;
+    height: auto;
+    border-radius: 50%;
+    margin: 50px;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 150px;
+    width: 200px;
+    opacity: 0;
+    transition: 0.5s ease;
+    background-color: #7fc8f8;
+    border-radius: 50%;
+    margin: 50px;
+}
+
+.iconContainer:hover .overlay {
+    opacity: 1;
+}
+
+.label {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+#credit {
+    font-size: x-small;
+    padding: 10px;
 }
