@@ -54,6 +54,11 @@ body {
   justify-content: right;
 }
 
+.btn{
+  background-color: #7fc8f8;
+  color:white;
+}
+
 #profile {
   background-color: #7fc8f8;
 }

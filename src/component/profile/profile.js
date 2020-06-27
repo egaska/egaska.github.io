@@ -1,16 +1,10 @@
 import React from "react";
-import './styles.css';
+
 
 function Profile() {
     return (
       <div class="container main">
         <div class="row">
-          <div class="page-header">
-            <h3>
-              <b>Profile</b>
-            </h3>
-            <hr class="my-3"></hr>
-          </div>
         </div>
         <article class="row single-post mt-5 no-gutters post">
           <div class="col-md-12">
