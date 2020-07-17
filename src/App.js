@@ -1,32 +1,18 @@
-import React from "react";
-import NavBar from "./component/navbar/navbar";
-import Profile from "./component/profile/profile";
-import Contact from "./component/contact/contact";
-import Portfolio from "./component/portfolio/portfolio";
-import "./App.css";
-import { BrowserRouter as Router, Switch, Route} from "react-router-dom";
+import React from 'react';
+import NavBar from "./components/navbar/navbar";
+import AboutMe from "./components/AboutMe/aboutme";
+import Portfolio from "./components/Portfolio/portfolio";
+import Footer from "./components/footer/footer";
+import { Link, animateScroll as scroll } from "react-scroll";
 
 function App() {
+
   return (
-    <div className="jumbo">
-      <NavBar />
-      <br />
-      <br />
-      <Router>
-      <Switch>
-        <Route exact path={["/", "/profile"]}>
-          <Profile/>
-        </Route>
-        <Route exact path={"/portfolio"}>
-          <Portfolio />
-        </Route>
-        <Route exact path={"/contact"}>
-          <Contact />
-        </Route>
-      </Switch>
-      </Router>
-      <div className="fixed-bottom "></div>
-      <nav className="navbar fixed-bottom navbar-light bg-lightr justify-content-center "></nav>
+    <div className="App">
+     <NavBar Link = {Link}/>
+     <AboutMe />
+     <Portfolio />
+     <Footer/>
     </div>
   );
 }
